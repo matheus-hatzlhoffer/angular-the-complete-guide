@@ -1,0 +1,13 @@
+.warn{
+    border: 2px yellow solid;
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+    background-color: lightyellow;
+    width: 30vw;
+    border-radius: 0.75rem;
+}
+
+.warn p {
+    margin: 10px 0;
+}
