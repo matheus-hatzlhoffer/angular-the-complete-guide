@@ -11,3 +11,11 @@ ng new my-first-app --no-strict --standalone false --routing false
 ```
 
 Wizard Options - CSS
+
+## Module 2 - The Basics
+
+- The Angular sends the index.html file to the browser
+- The selector is the component attribute that Angular uses to replace the HTML  custom tags
+- The main.ts script analyzes the app.module
+- The app.module points to the app.component files that have the HTML code and the code selector
+- So Angular can replace the HTML custom tag in the index.html
