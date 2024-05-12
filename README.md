@@ -19,3 +19,14 @@ Wizard Options - CSS
 - The main.ts script analyzes the app.module
 - The app.module points to the app.component files that have the HTML code and the code selector
 - So Angular can replace the HTML custom tag in the index.html
+
+### Event binding
+
+- Output data
+  - String Interpolation
+    - inline typescript code that returns a string
+  - Property Binding
+    - 
+- React to (User) Events
+  - Event Binding
+- Two way-binding

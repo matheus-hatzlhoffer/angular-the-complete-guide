@@ -1,0 +1,8 @@
+<label for="username">Username</label>
+<input id="username" type="text" class="form-control" [(ngModel)]="username">
+<p *ngIf="isUsernameEmpty(); else elseBlock">No username selected</p>
+<ng-template #elseBlock>
+    <p>username is {{username}}</p>
+</ng-template>
+<button type="button" class="btn btn-primary" (click)="resetUsername()" [disabled]="isUsernameEmpty()">Reset
+    Username</button>
