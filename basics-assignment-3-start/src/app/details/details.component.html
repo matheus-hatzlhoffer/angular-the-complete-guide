@@ -1,0 +1,8 @@
+<button class="btn btn-primary" (click)="toogleSecret()">Display Details</button>
+<p *ngIf="toogle">Super scret data</p>
+<ul>
+    <li *ngFor="let log of logs; index as i" [ngStyle]="{backgroundColor: getBgColor(i)}"
+        [ngClass]="{'old-log': i > 4}">Log number {{log.toogleId}}: Action - {{log.action}} was triggered at
+        {{log.timestamp}}
+    </li>
+</ul>

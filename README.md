@@ -26,7 +26,6 @@ Wizard Options - CSS
   - String Interpolation
     - inline typescript code that returns a string
   - Property Binding
-    - 
 - React to (User) Events
   - Event Binding
 - Two way-binding
