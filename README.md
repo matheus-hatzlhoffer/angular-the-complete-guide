@@ -38,3 +38,14 @@ to use a alias add the sting as Input parameter - Input('alias')
 To create a event you can use @Output('alias'), the alias paramter is optional' and an eventEmitter.
 
 Sometimes the distance between components comunications are very long and this Input() Output() chain is not the best approach.
+
+### Lifecycle Hooks
+
+**ngOnChanges** - Called after a bound input changes
+**ngOnInit** - Called once the component is initialized, after the construct
+**ngOnCheck** - Called during every change detection run
+**ngAfterContentInit** - Called after ng-content has been projected into view
+**ngAfterContentChecked** - Called every time the project content has been checked
+**ngAfterViewInit** - Called after the component's view (and child views) has been initialized
+**ngAfterViewChecked** - Called every time the view (and child views) have been checked
+**ngOnDestroy** Called once the component is about to be destroyed
