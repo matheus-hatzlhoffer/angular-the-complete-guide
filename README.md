@@ -28,4 +28,13 @@ Wizard Options - CSS
   - Property Binding
 - React to (User) Events
   - Event Binding
-- Two way-binding
+- Two way-
+
+## Module 9 - Components and Databinding Deep Dive
+
+@Input() to expose elements do bind with parents components
+to use a alias add the sting as Input parameter - Input('alias')
+
+To create a event you can use @Output('alias'), the alias paramter is optional' and an eventEmitter.
+
+Sometimes the distance between components comunications are very long and this Input() Output() chain is not the best approach.
