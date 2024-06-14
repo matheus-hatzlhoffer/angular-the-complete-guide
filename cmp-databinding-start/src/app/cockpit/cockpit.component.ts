@@ -24,7 +24,6 @@ export class CockpitComponent {
   @ViewChild('serverContent') serverContent: ElementRef<HTMLInputElement>;
 
   onAddServer(severName: HTMLInputElement) {
-    console.log(this.serverContent);
     this.serverCreated.emit({
       name: severName.value,
       content: this.serverContent.nativeElement.value,

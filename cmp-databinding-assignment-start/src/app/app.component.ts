@@ -9,13 +9,10 @@ export class AppComponent {
   numbers: number[] = [];
 
   onCountEvent(number: number) {
-    console.log(number);
     this.numbers.push(number);
   }
 
   onClearEvent() {
-    console.log(this.numbers);
-    console.log('clear numbers');
     this.numbers = [];
   }
 }

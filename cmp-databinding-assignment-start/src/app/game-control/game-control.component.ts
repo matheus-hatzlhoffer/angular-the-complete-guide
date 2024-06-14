@@ -26,7 +26,6 @@ export class GameControlComponent {
 
   private emitEvent = () => {
     this.countEvent.emit(this.count);
-    console.log(this.count);
     this.count++;
   };
 }
